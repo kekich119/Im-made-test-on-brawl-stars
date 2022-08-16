@@ -31,6 +31,17 @@ namespace testPoBrawelStrars
 
 
 
+            Button button5 = new Button();
+            button5.Location = new Point(794, 450);
+            button5.Size = new Size(114, 39);
+            button5.Text = ("приветик");
+
+            this.Controls.Add(button5);
+            this.button1.Controls.Remove((Button)sender);
+
+
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -65,5 +76,7 @@ namespace testPoBrawelStrars
             
            
         }
+
     }
 }
+
